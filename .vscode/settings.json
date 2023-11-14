@@ -5,7 +5,25 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        ".prettierignore": true,
+        "jsconfig.json": true,
+        ".npmrc": true,
+        ".eslintrc.cjs": true,
+        ".eslintignore": true
     },
-    "hide-files.files": []
+    "hide-files.files": [
+        ".prettierignore",
+        "jsconfig.json",
+        ".npmrc",
+        ".eslintrc.cjs",
+        ".eslintignore"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[svelte]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.documentSelectors": [
+        "**/*.svelte"
+    ]
 }
